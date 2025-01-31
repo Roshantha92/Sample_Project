@@ -3,7 +3,7 @@ Feature: Register new user
   Scenario: Launch Chrome browser & navigate to URL
 
     Given I navigate to the URL
-    Then I verify that the home page is visible successfully
+    Then  I verify that the home page is visible successfully
 
     When I click on the Signup button
     Then I verify that New User Signup "New User Signup!" is visible
